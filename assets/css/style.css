@@ -85,11 +85,11 @@ a.topLink:active {
 img.portfolioImage {
     height: 200px;
     width: auto;
-    border: 2px solid #ffffff;
+    margin: 10px;
 }
 
 img.portfolioImage:hover {
-    border: 2px solid teal;
+    opacity: 0.5;
 }
 
 hr {
@@ -161,6 +161,10 @@ hr {
     height: auto;
     border-radius: 20%;
     padding: 10px 10px 10px 10px;
+}
+
+.contactImage:hover {
+    opacity: 0.5;
 }
 
 .clearfix::after {
